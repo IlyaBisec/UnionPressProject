@@ -1,0 +1,10 @@
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\OwnControls\bin\Debug\OwnControls.pdb
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\OwnControls\obj\Debug\OwnControls.csprojAssemblyReference.cache
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\OwnControls\obj\Debug\OwnControls.Controls.Modern_TextBox.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\OwnControls\obj\Debug\OwnControls.Properties.Resources.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\OwnControls\obj\Debug\OwnControls.csproj.GenerateResource.cache
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\OwnControls\obj\Debug\OwnControls.csproj.CoreCompileInputs.cache
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\OwnControls\obj\Debug\OwnControls.pdb
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\OwnControls\bin\Debug\OwnControls.dll.config
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\OwnControls\bin\Debug\OwnControls.dll
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\OwnControls\obj\Debug\OwnControls.dll

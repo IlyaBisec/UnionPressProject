@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2950680A-38FF-4440-9026-960DDA95C8AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UnionPressOnSharp</RootNamespace>
+    <AssemblyName>Союз Печати</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Souz.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.4.4.1\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1003\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="NSubstitute, Version=4.3.0.0, Culture=neutral, PublicKeyToken=92dd2e9066daa5ca, processorArchitecture=MSIL">
+      <HintPath>..\packages\NSubstitute.4.3.0\lib\net46\NSubstitute.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.3.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\AboutAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutAuthor.Designer.cs">
+      <DependentUpon>AboutAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Authorisation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Authorisation.Designer.cs">
+      <DependentUpon>Authorisation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Chart\ChartView.cs" />
+    <Compile Include="Forms\Classes\Logger.cs" />
+    <Compile Include="Forms\Classes\LoginPass.cs" />
+    <Compile Include="Forms\Classes\ThemeColor.cs" />
+    <Compile Include="Forms\Classes\FunctionsDB.cs" />
+    <Compile Include="Forms\Exports\ExcelExport.cs" />
+    <Compile Include="Forms\Exports\WordExport.cs" />
+    <Compile Include="Forms\GraphicForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GraphicForm.Designer.cs">
+      <DependentUpon>GraphicForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Classes\Program.cs" />
+    <Compile Include="Forms\MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Models\IPeriodRepository.cs" />
+    <Compile Include="Forms\Models\IPressRepository.cs" />
+    <Compile Include="Forms\Models\ITransportRepository.cs" />
+    <Compile Include="Forms\Models\ITypeRepository.cs" />
+    <Compile Include="Forms\Models\IWorkersRepository.cs" />
+    <Compile Include="Forms\Models\PeriodModel.cs" />
+    <Compile Include="Forms\Models\PressModel.cs" />
+    <Compile Include="Forms\Models\TransportModel.cs" />
+    <Compile Include="Forms\Models\TypeModel.cs" />
+    <Compile Include="Forms\Models\WorkersModel.cs" />
+    <Compile Include="Forms\Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Options.Designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PeriodPress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PeriodPress.Designer.cs">
+      <DependentUpon>PeriodPress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Presenters\PeriodPresenter.cs" />
+    <Compile Include="Forms\Presenters\PressPresenter.cs" />
+    <Compile Include="Forms\Presenters\TransportPresenter.cs" />
+    <Compile Include="Forms\Presenters\TypePresenter.cs" />
+    <Compile Include="Forms\Presenters\WorkersPresenter.cs" />
+    <Compile Include="Forms\Press.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Press.Designer.cs">
+      <DependentUpon>Press.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Repositories\CBaseRepository.cs" />
+    <Compile Include="Forms\Presenters\Common\ModelDataValidation.cs" />
+    <Compile Include="Forms\Repositories\CPeriodRepository.cs" />
+    <Compile Include="Forms\Repositories\CPressRepository.cs" />
+    <Compile Include="Forms\Repositories\CTransportRepository.cs" />
+    <Compile Include="Forms\Repositories\CTypeRepository.cs" />
+    <Compile Include="Forms\Repositories\CWorkersRepository.cs" />
+    <Compile Include="Forms\Statistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Statistics.Designer.cs">
+      <DependentUpon>Statistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Transporter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transporter.Designer.cs">
+      <DependentUpon>Transporter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TypePress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TypePress.Designer.cs">
+      <DependentUpon>TypePress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Views\IPeriodView.cs" />
+    <Compile Include="Forms\Views\IPressView.cs" />
+    <Compile Include="Forms\Views\ITransportView.cs" />
+    <Compile Include="Forms\Views\ITypeView.cs" />
+    <Compile Include="Forms\Views\IWorkersView.cs" />
+    <Compile Include="Forms\Workers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Workers.Designer.cs">
+      <DependentUpon>Workers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Souz_PechatiDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Souz_PechatiDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TabelsAndPanels.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TabelsAndPanels.Designer.cs">
+      <DependentUpon>TabelsAndPanels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TablesForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TablesForms.Designer.cs">
+      <DependentUpon>TablesForms.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\AboutAuthor.resx">
+      <DependentUpon>AboutAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Authorisation.resx">
+      <DependentUpon>Authorisation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GraphicForm.resx">
+      <DependentUpon>GraphicForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PeriodPress.resx">
+      <DependentUpon>PeriodPress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Press.resx">
+      <DependentUpon>Press.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Statistics.resx">
+      <DependentUpon>Statistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TabelsAndPanels.resx">
+      <DependentUpon>TabelsAndPanels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transporter.resx">
+      <DependentUpon>Transporter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TypePress.resx">
+      <DependentUpon>TypePress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Workers.resx">
+      <DependentUpon>Workers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Forms\TablesForms.resx">
+      <DependentUpon>TablesForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Interface\Archive.ttf" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Souz_PechatiDataSet.xsc">
+      <DependentUpon>Souz_PechatiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Souz_PechatiDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Souz_PechatiDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Souz_PechatiDataSet.xss">
+      <DependentUpon>Souz_PechatiDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Interface\worker.png" />
+    <None Include="Interface\worker50x50.png" />
+    <None Include="Interface\workerBlue50x50.png" />
+    <None Include="Interface\car350x50.png" />
+    <None Include="Interface\car250x50.png" />
+    <None Include="Interface\post50x50.png" />
+    <None Include="Interface\icon2.png" />
+    <None Include="Interface\font50x50.png" />
+    <None Include="Interface\clock.png" />
+    <None Include="Interface\exit50x50.png" />
+    <None Include="Interface\backgroundMain.png" />
+    <None Include="Interface\Photo\I.jpg" />
+    <None Include="Interface\Photo\Author120x120.png" />
+    <None Include="Interface\shesternya50x50.png" />
+    <None Include="Interface\graphic50x50.png" />
+    <None Include="Interface\statistics.png" />
+    <None Include="Interface\FormStyle\ClassicStyle.png" />
+    <None Include="Interface\Collapse.png" />
+    <None Include="Interface\Collapse2.png" />
+    <None Include="Interface\FormStyle\NightStyle.png" />
+    <None Include="Interface\Photo\avatar.png" />
+    <Content Include="Souz.ico" />
+    <Content Include="Trash.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OwnControls\OwnControls.csproj">
+      <Project>{7E02830D-0949-460B-AFD1-28776E69AA3D}</Project>
+      <Name>OwnControls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

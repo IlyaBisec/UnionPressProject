@@ -1,0 +1,4 @@
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\Disk.SDK.Provider (.NET 4.0)\obj\Debug\Disk.SDK.Provider (.NET 4.0).csprojAssemblyReference.cache
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\Disk.SDK.Provider (.NET 4.0)\obj\Debug\Disk.SDK.Provider.DiskSDK.Utils.WebdavResources.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\Disk.SDK.Provider (.NET 4.0)\obj\Debug\Disk.SDK.Provider (.NET 4.0).csproj.GenerateResource.cache
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\Disk.SDK.Provider (.NET 4.0)\obj\Debug\Disk.SDK.Provider (.NET 4.0).csproj.CoreCompileInputs.cache

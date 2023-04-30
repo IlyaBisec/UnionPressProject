@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="UnionPressOnSharp.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <connectionStrings>
+        <add name="UnionPressDB" connectionString="Data Source=25.69.100.67,1433;Initial Catalog=Souz_Pechati;Integrated Security=false;User ID=UnionPress3;Password=123;"
+            providerName="System.Data.SqlClient" />
+        <add name="UnionPressOnSharp.Properties.Settings.Souz_PechatiConnectionString"
+            connectionString="Data Source=25.69.100.67,1433;Initial Catalog=Souz_Pechati;Integrated Security=false;User ID=UnionPress3;Password=123;"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+    </startup>
+    <userSettings>
+        <UnionPressOnSharp.Properties.Settings>
+            <setting name="ColorButSet" serializeAs="String">
+                <value>30, 100, 200</value>
+            </setting>
+            <setting name="StyleIsSelect" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ColorPanelSet" serializeAs="String">
+                <value>White</value>
+            </setting>
+            <setting name="ColorFontBtnSet" serializeAs="String">
+                <value>Gainsboro</value>
+            </setting>
+            <setting name="SizeFontSet" serializeAs="String">
+                <value>10</value>
+            </setting>
+            <setting name="ColorBorderSet" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="RadiusWinBorder" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="SizeWinBorder" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="ColorFontLblSet" serializeAs="String">
+                <value>Black</value>
+            </setting>
+            <setting name="ColorTextBoxSet" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="IsMoving" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="StyleIsSelect2" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ColorTxtFocus" serializeAs="String">
+                <value>Red</value>
+            </setting>
+            <setting name="CountBtnClick" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CountSearchClick" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="AppsTime" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="CounterWorkers" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterPress" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterTypePress" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterPeriodPress" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterGraphic" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterOptions" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterStatistics" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterExit" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterConnect" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterLogoMP" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterDostavka" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterColorText" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterColorBorder" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterBorderRadius" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterBorderSize" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterStyleSet" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterTextSize" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterColorTextBtn" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterColorBtnSet" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterColorTextBoxSet" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterDefaultClick" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterDropClick" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterToggleBtnMoving" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterDelete" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterAdd" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterSave" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterBack" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterUpdate" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterExport" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterLoad" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CounterEdit" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="CheckRegistration" serializeAs="String">
+                <value>False</value>
+            </setting>
+        </UnionPressOnSharp.Properties.Settings>
+    </userSettings>
+</configuration>

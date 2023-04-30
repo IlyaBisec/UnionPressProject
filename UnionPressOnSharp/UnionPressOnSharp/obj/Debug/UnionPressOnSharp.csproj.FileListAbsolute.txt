@@ -1,0 +1,67 @@
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.csprojAssemblyReference.cache
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.MainForm.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Properties.Resources.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.TablesForms.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.csproj.GenerateResource.cache
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.csproj.CoreCompileInputs.cache
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.TabelsAndPanels.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.Workers.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.PeriodPress.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.Press.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.Transporter.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.TypePress.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.MainPage.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.GraphicForm.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.Options.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.Statistics.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\ExcelDataReader.dll
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\ExcelDataReader.pdb
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\ExcelDataReader.xml
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.csproj.CopyComplete
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.AboutAuthor.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\OwnControls.dll
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\OwnControls.pdb
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\OwnControls.dll.config
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\Союз Печати.exe.config
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\Союз Печати.exe
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\Союз Печати.pdb
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\Союз Печати.exe
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\Союз Печати.pdb
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.Authorisation.resources
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.Registration.resources
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\Союз Печати.exe.config
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\Союз Печати.exe
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\Союз Печати.pdb
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\ExcelDataReader.dll
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\OwnControls.dll
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\OwnControls.pdb
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\OwnControls.dll.config
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\ExcelDataReader.pdb
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\ExcelDataReader.xml
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.csprojAssemblyReference.cache
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.AboutAuthor.resources
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.Authorisation.resources
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.GraphicForm.resources
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.MainForm.resources
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.MainPage.resources
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.Options.resources
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.PeriodPress.resources
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.Press.resources
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.Registration.resources
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.Statistics.resources
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.TabelsAndPanels.resources
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.Transporter.resources
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.TypePress.resources
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Forms.Workers.resources
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.Properties.Resources.resources
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.TablesForms.resources
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.csproj.GenerateResource.cache
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\UnionPressOnSharp.csproj.CopyComplete
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\Союз Печати.exe
+D:\Для Баргу\Курсачи\Курсовая работа 4 семестр(2 курс)\UnionPressOnSharp\UnionPressOnSharp\obj\Debug\Союз Печати.pdb
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\Castle.Core.dll
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\NSubstitute.dll
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\Castle.Core.xml
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\NSubstitute.xml
+D:\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\UnionPressOnSharp\bin\Debug\System.Threading.Tasks.Extensions.xml

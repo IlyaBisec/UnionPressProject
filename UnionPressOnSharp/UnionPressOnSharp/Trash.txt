@@ -1,0 +1,73 @@
+﻿ String updType =          "UPDATE Тип_изданий SET Тип = @Тип";
+            String updWork  =         "INSERT INTO Сотрудники VALUES (@Фамилия, @Имя, @Отчество, @Должность)";
+            //"UPDATE Сотрудники SET Фамилия = @Фамилия, Имя = @Имя, Отчество = @Отчество, Должность =  @Должность, Номер телефона = @Номер телефона";
+            String updTransfer =      "UPDATE Доставка SET [Дата начала] = @[Дата начала], [Дата окончания] = @[Дата окончания] WHERE [Дата начала] = @[Дата начала], [Дата окончания] = @[Дата окончания]";
+            String updPress =         "UPDATE Издания SET Наименование = @Наименование, [Период. выхода] = @[Период. выхода] WHERE Наименование = @Наименование, [Период. выхода] = @[Период. выхода]";
+            String updSeasonP =       "UPDATE Периодические_издания SET [Срок подписки] = @[Срок подписки], [Стоимость] = @[Стоимость], [Способ доставки] = @[Способ доставки], [Популярность %] =  @[Популярность %] WHERE [Срок подписки] = @[Срок подписки], [Стоимость] = @[Стоимость], [Способ доставки] = @[Способ доставки], [Популярность %] =  @[Популярность %]";
+
+
+
+            	public void UpdateData()
+		{
+			//cmd.CommandText = "UPDATE Пища SET id_товара = @id_товара, [срок годности] = @[срок годности], Вкус = @Вкус, WHERE id_товара = @id_товара
+			//String ^ commandText = "SELECT * FROM Votings WHERE VotingName = @VotingName";
+			SqlCommand work = new SqlCommand();
+			SqlCommand transfer = new SqlCommand();
+			SqlCommand press = new SqlCommand();
+			SqlCommand seasonP = new SqlCommand();
+
+			work.CommandText = "UPDATE Сотрудники SET Фамилия = @Фамилия, Имя = @Имя, Отчество = @Отчество, Должность =  @Должность, [Номер телефона] = @[Номер телефона], WHERE Фамилия = @Фамилия, Имя = @Имя, Отчество = @Отчество, Должность =  @Должность, [Номер телефона] = @[Номер телефона]";
+			transfer.CommandText = "UPDATE Доставка SET [Дата начала] = @[Дата начала], [Дата окончания] = @[Дата окончания], WHERE [Дата начала] = @[Дата начала], [Дата окончания] = @[Дата окончания]";
+			press.CommandText = "UPDATE Издания SET Наименование = @Наименование, [Период. выхода] = @[Период. выхода], WHERE @Наименование, [Период. выхода] = @[Период. выхода]";
+			seasonP.CommandText = "UPDATE Периодические_издания SET [Срок подписки] = @[Срок подписки], [Стоимость] = @[Стоимость], [Способ доставки] = @[Способ доставки], [Популярность %] =  @[Популярность %] WHERE [Срок подписки] = @[Срок подписки], [Стоимость] = @[Стоимость], [Способ доставки] = @[Способ доставки], [Популярность %] =  @[Популярность %]";
+		
+		}
+
+
+		private void ColorSet()
+        {
+            var settings = Properties.Settings.Default;
+
+            for (int i = 0; i <= 63; i++)
+            {
+                Controls["lbl" + (i + 1).ToString()].ForeColor = Properties.Settings.Default.ColorFontLblSet;
+                
+            }
+            BackColor = settings.ColorPanelSet;
+        }
+
+        private void Emission()
+        {
+            var settings = Properties.Settings.Default;
+            if (settings.StyleIsSelect == true)
+            {
+                int count = 0;
+                Enumerable.Range(1, 64).Select(x => new Label()).ToList().ForEach(i =>
+                {
+                    ++count;
+              
+                    i.Text = i.Top.ToString();
+                    this.Controls.Add(i);
+                    i.MouseEnter += (sender, args) =>
+                       //  MessageBox.Show("Нажат Lable c текстом " + ((Label)sender)?.Text); 
+                       Controls["lbl" + i.ToString()].ForeColor = Color.FromArgb(30, 100, 200);
+                });
+
+            }
+                //label.ForeColor = Color.FromArgb(30, 100, 200);
+            else if (settings.StyleIsSelect2 == true)
+            {
+                int count = 0;
+                Enumerable.Range(1, 64).Select(x => new Label()).ToList().ForEach(i =>
+                {
+                    ++count;
+                    i.Text = i.Top.ToString();
+                    this.Controls.Add(i);
+                    i.MouseLeave += (sender, args) =>
+                       //  MessageBox.Show("Нажат Lable c текстом " + ((Label)sender)?.Text); 
+                       Controls["lbl" + i.ToString()].ForeColor = Color.HotPink;
+                });
+
+            }
+             //   label.ForeColor = Color.HotPink;
+        }
