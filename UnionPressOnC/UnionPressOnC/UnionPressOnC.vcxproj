@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{969B49AC-3AEE-4199-99F5-4A853B3EEE2E}</ProjectGuid>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>UnionPressOnC</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>main</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy app.config "$(TargetPath).config"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word">
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1003\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="OwnControls">
+      <HintPath>..\..\UnionPressOnSharp\OwnControls\bin\Release\OwnControls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net">
+      <HintPath>..\..\UnionPressOnSharp\Disk.SDK.Provider (.NET 4.0)\bin\Debug\System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Forms\AboutAuthor.cpp" />
+    <ClCompile Include="Forms\Authorisation.cpp" />
+    <ClCompile Include="Forms\Classes\Logger.h" />
+    <ClCompile Include="Forms\Classes\LoginPass.cpp" />
+    <ClCompile Include="Forms\GraphicForm.cpp" />
+    <ClCompile Include="Forms\MainForm.cpp" />
+    <ClCompile Include="Forms\MainPage.cpp" />
+    <ClCompile Include="Forms\Models\PeriodModel.cpp" />
+    <ClCompile Include="Forms\Models\PressModel.cpp" />
+    <ClCompile Include="Forms\Models\TransportModel.cpp" />
+    <ClCompile Include="Forms\Models\TypeModel.cpp" />
+    <ClCompile Include="Forms\Models\WorkersModel.cpp" />
+    <ClCompile Include="Forms\Options.cpp" />
+    <ClCompile Include="Forms\PeriodPress.cpp" />
+    <ClCompile Include="Forms\Presenters\PeriodPresenter.cpp" />
+    <ClCompile Include="Forms\Presenters\PressPresenter.cpp" />
+    <ClCompile Include="Forms\Presenters\TransportPresenter.cpp" />
+    <ClCompile Include="Forms\Presenters\TypePresenter.cpp" />
+    <ClCompile Include="Forms\Presenters\WorkersPresenter.cpp" />
+    <ClCompile Include="Forms\Press.cpp" />
+    <ClCompile Include="Forms\Registration.cpp" />
+    <ClCompile Include="Forms\Statistics.cpp" />
+    <ClCompile Include="Forms\TabelsAndPanels.cpp" />
+    <ClCompile Include="Forms\Transporter.cpp" />
+    <ClCompile Include="Forms\TypePress.cpp" />
+    <ClCompile Include="Forms\Workers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Forms\AboutAuthor.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forms\Authorisation.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forms\Classes\FunctionsDB.h" />
+    <ClInclude Include="Forms\Classes\LoginPass.h" />
+    <ClInclude Include="Forms\Exports\ExcelExport.h" />
+    <ClInclude Include="Forms\Exports\WordExport.h" />
+    <ClInclude Include="Forms\GraphicForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forms\MainForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forms\MainPage.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forms\Models\IPressRepository.h" />
+    <ClInclude Include="Forms\Models\ITransportRepository.h" />
+    <ClInclude Include="Forms\Models\ITypeRepository.h" />
+    <ClInclude Include="Forms\Models\IWorkersRepository.h" />
+    <ClInclude Include="Forms\Options.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forms\PeriodPress.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forms\Press.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forms\Registration.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forms\Models\IPeriodRepository.h" />
+    <ClInclude Include="Forms\Repositories\CBaseRepository.h" />
+    <ClInclude Include="Forms\Repositories\CPeriodRepository.h" />
+    <ClInclude Include="Forms\Repositories\CPressRepository.h" />
+    <ClInclude Include="Forms\Repositories\CTransportRepository.h" />
+    <ClInclude Include="Forms\Repositories\CTypeRepository.h" />
+    <ClInclude Include="Forms\Repositories\CWorkersRepository.h" />
+    <ClInclude Include="Forms\Statistics.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forms\TabelsAndPanels.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forms\Transporter.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forms\TypePress.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forms\Views\IPeriodView.h" />
+    <ClInclude Include="Forms\Views\IPressView.h" />
+    <ClInclude Include="Forms\Views\ITransportView.h" />
+    <ClInclude Include="Forms\Views\ITypeView.h" />
+    <ClInclude Include="Forms\Views\IWorkersView.h" />
+    <ClInclude Include="Forms\Workers.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\AboutAuthor.resx">
+      <DependentUpon>Forms\AboutAuthor.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Authorisation.resx">
+      <DependentUpon>Forms\Authorisation.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GraphicForm.resx">
+      <DependentUpon>Forms\GraphicForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>Forms\MainForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainPage.resx">
+      <DependentUpon>Forms\MainPage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Options.resx">
+      <DependentUpon>Forms\Options.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PeriodPress.resx">
+      <DependentUpon>Forms\PeriodPress.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Press.resx">
+      <DependentUpon>Forms\Press.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Registration.resx">
+      <DependentUpon>Forms\Registration.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Statistics.resx">
+      <DependentUpon>Forms\Statistics.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transporter.resx">
+      <DependentUpon>Forms\Transporter.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TypePress.resx">
+      <DependentUpon>Forms\TypePress.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Workers.resx">
+      <DependentUpon>Forms\Workers.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Interface\backgroundMain.png" />
+    <Image Include="Interface\car250x50.png" />
+    <Image Include="Interface\car350x50.png" />
+    <Image Include="Interface\clock.png" />
+    <Image Include="Interface\Collapse.png" />
+    <Image Include="Interface\Collapse2.png" />
+    <Image Include="Interface\exit50x50.png" />
+    <Image Include="Interface\FormStyle\ClassicStyle.jpg" />
+    <Image Include="Interface\FormStyle\ClassicStyle.png" />
+    <Image Include="Interface\FormStyle\NightStyle.png" />
+    <Image Include="Interface\graphic50x50.png" />
+    <Image Include="Interface\icon2.png" />
+    <Image Include="Interface\Photo\Author120x120.png" />
+    <Image Include="Interface\Photo\avatar.png" />
+    <Image Include="Interface\Photo\avatar2.png" />
+    <Image Include="Interface\Photo\I.jpg" />
+    <Image Include="Interface\post50x50.png" />
+    <Image Include="Interface\shesternya50x50.png" />
+    <Image Include="Interface\statistics.png" />
+    <Image Include="Interface\worker.png" />
+    <Image Include="Interface\worker50x50.png" />
+    <Image Include="Interface\workerBlue50x50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\app.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

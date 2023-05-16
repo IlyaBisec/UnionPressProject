@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Forms">
+      <UniqueIdentifier>{e6949768-66fb-4778-a0da-64878136fbee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images">
+      <UniqueIdentifier>{c9cb6a00-d896-4f2b-8e99-8629037c934b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms\src">
+      <UniqueIdentifier>{904fa11f-875a-4552-889b-9b14e90f08d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms\header">
+      <UniqueIdentifier>{2efa1ba0-2423-423c-957e-86e9b00c5891}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Forms\MainForm.h" />
+    <ClInclude Include="Forms\AboutAuthor.h" />
+    <ClInclude Include="Forms\Authorisation.h" />
+    <ClInclude Include="Forms\GraphicForm.h" />
+    <ClInclude Include="Forms\MainPage.h" />
+    <ClInclude Include="Forms\Options.h" />
+    <ClInclude Include="Forms\PeriodPress.h" />
+    <ClInclude Include="Forms\Press.h" />
+    <ClInclude Include="Forms\Registration.h" />
+    <ClInclude Include="Forms\Statistics.h" />
+    <ClInclude Include="Forms\TabelsAndPanels.h" />
+    <ClInclude Include="Forms\Transporter.h" />
+    <ClInclude Include="Forms\TypePress.h" />
+    <ClInclude Include="Forms\Workers.h" />
+    <ClInclude Include="Forms\Classes\LoginPass.h">
+      <Filter>Forms\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Forms\Classes\FunctionsDB.h">
+      <Filter>Forms\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Forms\Exports\ExcelExport.h" />
+    <ClInclude Include="Forms\Exports\WordExport.h" />
+    <ClInclude Include="Forms\Views\IPeriodView.h" />
+    <ClInclude Include="Forms\Models\IPeriodRepository.h" />
+    <ClInclude Include="Forms\Repositories\CBaseRepository.h" />
+    <ClInclude Include="Forms\Models\IPressRepository.h" />
+    <ClInclude Include="Forms\Models\ITransportRepository.h" />
+    <ClInclude Include="Forms\Models\ITypeRepository.h" />
+    <ClInclude Include="Forms\Models\IWorkersRepository.h" />
+    <ClInclude Include="Forms\Views\IPressView.h" />
+    <ClInclude Include="Forms\Views\ITransportView.h" />
+    <ClInclude Include="Forms\Views\ITypeView.h" />
+    <ClInclude Include="Forms\Views\IWorkersView.h" />
+    <ClInclude Include="Forms\Repositories\CPeriodRepository.h" />
+    <ClInclude Include="Forms\Repositories\CPressRepository.h" />
+    <ClInclude Include="Forms\Repositories\CTransportRepository.h" />
+    <ClInclude Include="Forms\Repositories\CTypeRepository.h" />
+    <ClInclude Include="Forms\Repositories\CWorkersRepository.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Forms\MainForm.cpp">
+      <Filter>Forms\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\AboutAuthor.cpp">
+      <Filter>Forms\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\Authorisation.cpp">
+      <Filter>Forms\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\GraphicForm.cpp">
+      <Filter>Forms\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\Classes\LoginPass.cpp">
+      <Filter>Forms\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\MainPage.cpp">
+      <Filter>Forms\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\Options.cpp">
+      <Filter>Forms\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\PeriodPress.cpp">
+      <Filter>Forms\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\Press.cpp">
+      <Filter>Forms\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\Registration.cpp">
+      <Filter>Forms\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\Statistics.cpp">
+      <Filter>Forms\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\TabelsAndPanels.cpp">
+      <Filter>Forms\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\Transporter.cpp">
+      <Filter>Forms\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\TypePress.cpp">
+      <Filter>Forms\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\Workers.cpp">
+      <Filter>Forms\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\Classes\Logger.h">
+      <Filter>Forms\header</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\Presenters\PeriodPresenter.cpp" />
+    <ClCompile Include="Forms\Models\PeriodModel.cpp" />
+    <ClCompile Include="Forms\Models\TypeModel.cpp" />
+    <ClCompile Include="Forms\Models\TransportModel.cpp" />
+    <ClCompile Include="Forms\Models\WorkersModel.cpp" />
+    <ClCompile Include="Forms\Models\PressModel.cpp" />
+    <ClCompile Include="Forms\Presenters\PressPresenter.cpp" />
+    <ClCompile Include="Forms\Presenters\TransportPresenter.cpp" />
+    <ClCompile Include="Forms\Presenters\TypePresenter.cpp" />
+    <ClCompile Include="Forms\Presenters\WorkersPresenter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Interface\Photo\avatar.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\Photo\avatar2.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\backgroundMain.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\car250x50.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\car350x50.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\FormStyle\ClassicStyle.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\FormStyle\ClassicStyle.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\clock.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\Collapse.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\Collapse2.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\exit50x50.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\graphic50x50.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\Photo\I.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\icon2.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\shesternya50x50.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\post50x50.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\FormStyle\NightStyle.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\statistics.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\worker.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\workerBlue50x50.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\worker50x50.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Interface\Photo\Author120x120.png">
+      <Filter>images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\app.config" />
+  </ItemGroup>
+</Project>
