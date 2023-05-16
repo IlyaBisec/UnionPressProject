@@ -17,6 +17,7 @@ Union Press On Sharp Project and Union Press On C++ project
 
 # Технические особенности:
 IDE Visual Studio 2019
+
 СУБД MSSQL 2012 (бд не идет в комплект, по дополнительным вопросам ilya.borisov.bisec@gmail.com)
 
 Yandex API для работы с Яндекс.Диском и обменом изображений(на данный момент обслуживание прекращено)
