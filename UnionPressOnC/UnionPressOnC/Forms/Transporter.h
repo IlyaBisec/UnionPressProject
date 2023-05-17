@@ -1,4 +1,9 @@
 #pragma once
+#include "Classes/Logger.h"
+#include "Views/ITransportView.h"
+#include "Repositories/CTransportRepository.h"
+#include "Exports/ExcelExport.h"
+#include "Exports/WordExport.h"
 
 namespace UnionPressOnC {
 
@@ -428,6 +433,7 @@ namespace UnionPressOnC {
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"Transporter";
 			this->Text = L"Доставка";
+			this->Load += gcnew System::EventHandler(this, &Transporter::Transporter_Load);
 			this->tabControlTransporter->ResumeLayout(false);
 			this->pageMain->ResumeLayout(false);
 			this->pageMain->PerformLayout();
@@ -438,5 +444,151 @@ namespace UnionPressOnC {
 
 		}
 #pragma endregion
-	};
+	private: System::Void Transporter_Load(System::Object^ sender, System::EventArgs^ e) {
+
+		Logger logger;
+		logger.Log("Открытие формы", "Transporter.cs", "Transporter", "443");
+	}
+
+		   public: void SetPeriodListBindingSource(BindingSource^ pList)
+		   {
+			   gridTransporter->DataSource = pList;
+		   }
+
+				 //private: void AssociateAndRaiseViewEvents()
+				 //{
+				 //	Logger logger;
+				 //	//Поиск
+				 //	btnSearchPeriod.Click += delegate{ SearchDataEvent ? .Invoke(this, EventArgs.Empty); };
+				 //	txtPeriod->KeyDown += (s, e) =>
+				 //	{	
+				 //		if (e.KeyCode == Keys.Enter)
+				 //			SearchDataEvent ? .Invoke(this, EventArgs.Empty);
+
+				 //		logger.Log("Поиск", "PeriodForm.cs", "btnSearchPeriod", "160");
+
+				 //	};
+				 //	//Добавить
+				 //	btnAddPeriod.Click += delegate
+				 //	{
+				 //		counter++; counterAdd++;
+				 //		Properties.Settings.Default.CountBtnClick = counter;
+				 //		Properties.Settings.Default.CounterAdd = counterAdd;
+				 //		AddNewDataEvent ? .Invoke(this, EventArgs.Empty);
+				 //		tabControlPeriod.TabPages.Remove(pageMain);
+				 //		tabControlPeriod.TabPages.Add(pageSettings);
+				 //		pageSettings.Text = "Добавление нового периодического издания";
+
+				 //		logger.Log("Добавление", "PeriodForm.cs", "btnAddPeriod", "174");
+				 //	};
+				 //	//Изменить
+				 //	btnEditPeriod.Click += delegate
+				 //	{
+				 //		counter++; counterEdit++;
+				 //		Properties.Settings.Default.CountBtnClick = counter;
+				 //		Properties.Settings.Default.CounterEdit = counterEdit;
+				 //		EditDataEvent ? .Invoke(this, EventArgs.Empty);
+				 //		tabControlPeriod.TabPages.Remove(pageMain);
+				 //		tabControlPeriod.TabPages.Add(pageSettings);
+				 //		pageSettings.Text = "Изменение периодического издания";
+
+				 //		logger.Log("Редактирование", "PeriodForm.cs", "btnEditPeriod", "188");
+				 //	};
+				 //	//Сохранить
+				 //	btnSaveSettings.Click += delegate
+				 //	{
+				 //		counter++; counterSave++;
+				 //		Properties.Settings.Default.CountBtnClick = counter;
+				 //		Properties.Settings.Default.CounterSave = counterSave;
+				 //		SaveDataEvent ? .Invoke(this, EventArgs.Empty);
+				 //		if (isSuccessful)
+				 //		{
+				 //			tabControlPeriod.TabPages.Remove(pageSettings);
+				 //			tabControlPeriod.TabPages.Add(pageMain);
+				 //		}
+				 //		MessageBox.Show(Message);
+
+
+				 //		logger.Log("Сохранение", "PeriodForm.cs", "btnSaveSettings", "201");
+				 //	};
+				 //	//Отмена
+				 //	btnCancelSettings.Click += delegate
+				 //	{
+				 //		counter++; counterDelete++;
+				 //		Properties.Settings.Default.CountBtnClick = counter;
+				 //		Properties.Settings.Default.CounterDelete = counterDelete;
+				 //		counter++; counterBack++;
+				 //		Properties.Settings.Default.CountBtnClick = counter;
+				 //		Properties.Settings.Default.CounterBack = counterBack;
+				 //		CancelEvent ? .Invoke(this, EventArgs.Empty);
+				 //		tabControlPeriod.TabPages.Remove(pageSettings);
+				 //		tabControlPeriod.TabPages.Add(pageMain);
+
+				 //		logger.Log("Отмена", "PeriodForm.cs", "btnCancelSettings", "218");
+				 //	};
+				 //	//Удалить
+				 //	btnDelPeriod.Click += delegate
+				 //	{
+				 //		var result = MessageBox.Show("удалить выбранное периодическое издание?", "Внимание",
+				 //			MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+				 //		if (result == DialogResult.Yes)
+				 //		{
+				 //			DeleteDataEvent ? .Invoke(this, EventArgs.Empty);
+				 //			MessageBox.Show(Message);
+				 //		}
+				 //		logger.Log("Удаление", "PeriodForm.cs", "btnDelPeriod", "233");
+				 //	};
+
+				 //}
+
+	private: void btnLoadTransport_Click(Object sender, EventArgs e)
+	{
+
+		ITransportView tpView = this;
+		string sqlConnectionString = ConfigurationManager.ConnectionStrings["UnionPressDB"].ConnectionString;
+		ITransportRepository transportRepository = gcnew CTransportRepository(sqlConnectionString);
+
+		Logger logger;
+		logger.Log("Загрузка из бд", "Transportorm.cs", "btnLoadTransport", "247");
+	}
+
+	private: void btnExportPeriod_Click(Object sender, EventArgs e)
+	{
+		ExportContextMenu.Show();
+
+
+		Logger logger;
+		logger.Log("Экспорт", "TransportForm.cs", "btnExportTransport", "261");
+	}
+
+	private: void ExpMenuItemExcel_Click(Object sender, EventArgs e)
+	{
+		ExcelExport excelExport;
+		excelExport.excelExport(gridTransporter);
+
+		Logger logger;
+		logger.Log("Экспорт в Excel", "Transportorm.cs", "ExpMenuItemExcel", "272");
+	}
+
+	private: void ExpMenuItemWord_Click(Object sender, EventArgs e)
+	{
+		SaveFileDialog^ save = gcnew SaveFileDialog();
+		WordExport wordExport;
+
+		save->Filter = "Word документы (*.doc)|*.doc";
+		save->FileName = "";
+
+		if (save->ShowDialog())
+			wordExport.wordExport(gridTransporter, save->FileName);
+
+		Logger logger;
+		logger.Log("Экспорт в Word", "Transportorm.cs", "ExpMenuItemWord", "281");
+	}
+
+		   private:
+			   String message;
+			   bool successful;
+			   bool isEdit;
+
+};
 }

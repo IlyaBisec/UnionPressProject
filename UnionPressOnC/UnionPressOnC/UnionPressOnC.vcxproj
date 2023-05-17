@@ -260,6 +260,9 @@
     <EmbeddedResource Include="Forms\Statistics.resx">
       <DependentUpon>Forms\Statistics.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TabelsAndPanels.resx">
+      <DependentUpon>Forms\TabelsAndPanels.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Transporter.resx">
       <DependentUpon>Forms\Transporter.h</DependentUpon>
     </EmbeddedResource>

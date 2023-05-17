@@ -664,7 +664,7 @@ namespace UnionPressOnC {
 		logger.Log("Ёкспорт в Excel", "PeriodForm.cs", "ExpMenuItemExcel", "272");
 	}
 
-	private void ExpMenuItemWord_Click(Object sender, EventArgs e)
+	private: void ExpMenuItemWord_Click(Object sender, EventArgs e)
 	{
 		SaveFileDialog^ save = gcnew SaveFileDialog();
 		WordExport wordExport;
