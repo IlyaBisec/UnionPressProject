@@ -37,7 +37,7 @@ Yandex API for working with Yandex.Disk and image sharing (currently the service
 
 Project on .NET Framework 4.7.2(C#) and was ported to
 
-4.8(C++14), unfortunately, the C++ language is not stable 
+4.8(C++14) - is not stable 
 
 The project used its own components - OwnControls(buttons, input fields, combobox, listbox, etc.), inherit the functionality of the basic controls.
 <p>More information about OwnControls.DLL can be found in this repository <a href="https://github.com/Sadochok-BISEC/CSharpAppCustomControls">OwnContols</a></p><br>
