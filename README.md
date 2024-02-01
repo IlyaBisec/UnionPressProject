@@ -55,18 +55,20 @@ MS SQL will be used as a database management system.
 
 
 # Технические особенности / Technical requirements:
-IDE Visual Studio 2019
+<a>IDE Visual Studio 2019</a><br>
+<a>MSSQL 2012 (БД не включена в проект / the database is not included in the package)</a><br>
+<a>Yandex API для работы с Яндекс.Диском и обменом изображений(на данный момент обслуживание прекращено, поэтому заменен на локальное хранение)</a><br>
+<a>Yandex API for working with Yandex.Disk and image sharing (currently the service has been discontinued, so it has been replaced with local storage)</a><br>
 
-MSSQL 2012 (the database is not included in the package, for additional questions: <a>ilya.borisov.bisec@gmail.com</a>
+<a>Project on .NET Framework 4.7.2(C#) and was ported to</a>
+<a>4.8(C++14) - is not stable</a><br>
 
-Yandex API для работы с Яндекс.Диском и обменом изображений(на данный момент обслуживание прекращено, поэтому заменен на локальное хранение)
-Yandex API for working with Yandex.Disk and image sharing (currently the service has been discontinued, so it has been replaced with local storage)
+<a>В проекте использовались собственные компоненты - OwnControls(кнопки, поля ввода, combobox, listbox и т.д.), наследуют функциональность от базовых controls.</a><br>
+<a>The project used its own components - OwnControls(buttons, input fields, combobox, listbox, etc.), inherit the functionality of the basic controls.</a><br>
+<p>Больше информации об этом есть в репозитории / More information about OwnControls.DLL can be found in this repository <a href="https://github.com/Sadochok-BISEC/CSharpAppCustomControls">OwnContols</a></p><br>
 
-Project on .NET Framework 4.7.2(C#) and was ported to
-
-4.8(C++14) - is not stable 
-
-The project used its own components - OwnControls(buttons, input fields, combobox, listbox, etc.), inherit the functionality of the basic controls.
-<p>More information about OwnControls.DLL can be found in this repository <a href="https://github.com/Sadochok-BISEC/CSharpAppCustomControls">OwnContols</a></p><br>
+<a>Если нужен перевод на другой язык(English/Russian) или вы по другим вопросам, пишите:</a><br>
+<a>If you need a translation into another language (English/Russian) or you have other questions, write</a><br>
+<a>ilya.borisov.bisec@gmail.com</a>
 
 
