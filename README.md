@@ -28,7 +28,7 @@ MS SQL will be used as a database management system.
 Присутствует в папке с проектом / Present in the project folder
 
 <a>Краткая демонстрация работы приложения / A brief demonstration of how the application works</a><br>
-<p>При запуске приложения открывается главное меню с авторизацией аккаунта / When you launch the application, the main menu opens with account authorization</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/m1.PNG"/><br>
+<p>При запуске приложения открывается главное меню с авторизацией аккаунта / When you launch the application, the main menu opens with account authorization</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/m1.PNG" width="50" height="150 align="middle""/><br>
 <p>Далее регистрация/авторизация аккаунта / Next, account registration/authorization</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/authorisation.PNG"/><br>
 <img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/registration2.PNG"/><br>
 <p>Подтверждение входа / Login Confirmation</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/authorisationComplete.PNG"/><br>
