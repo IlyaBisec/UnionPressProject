@@ -28,30 +28,30 @@ MS SQL will be used as a database management system.
 Присутствует в папке с проектом / Present in the project folder
 
 <a>Краткая демонстрация работы приложения / A brief demonstration of how the application works</a><br>
-<p>При запуске приложения открывается главное меню с авторизацией аккаунта / When you launch the application, the main menu opens with account authorization</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/m1.png"/><br>
-<p>Далее регистрация/авторизация аккаунта / Next, account registration/authorization</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/authorisation.png"/><br>
-<img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/registration2.png"/><br>
-<p>Подтверждение входа / Login Confirmation</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/authorisationComplete.png"/><br>
-<img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/connectCoplete.png"/><br>
-<p>Окно работники предприятия / The window employees of the enterprise</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/workers.png"/><br>
-<p>Доставка / Transfer</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/transfer.png"/><br>
-<p>Издания / Press</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/press.png"/><br>
-<p>Тип изданий / Type of publication</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/typePress.png"/><br>
-<p>Период издания / Period of publication</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/periodPress.png"/><br>
-<p>Статистика / Statistics</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/statistic.png"/><br>
-<p>Диаграмма / Chart</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/diagramm2.png"/><br>
-<p>Настройки / Options</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/opthionsClassic.png"/><br>
-<img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/opthions.png"/><br>
-<p>Об Авторе / About an author</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/about.png"/><br>
+<p>При запуске приложения открывается главное меню с авторизацией аккаунта / When you launch the application, the main menu opens with account authorization</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/m1.png"/><br>
+<p>Далее регистрация/авторизация аккаунта / Next, account registration/authorization</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/authorisation.png"/><br>
+<img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/registration2.png"/><br>
+<p>Подтверждение входа / Login Confirmation</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/authorisationComplete.png"/><br>
+<img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/connectCoplete.png"/><br>
+<p>Окно работники предприятия / The window employees of the enterprise</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/workers.png"/><br>
+<p>Доставка / Transfer</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/transfer.png"/><br>
+<p>Издания / Press</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/press.png"/><br>
+<p>Тип изданий / Type of publication</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/typePress.png"/><br>
+<p>Период издания / Period of publication</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/periodPress.png"/><br>
+<p>Статистика / Statistics</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/statistic.png"/><br>
+<p>Диаграмма / Chart</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/diagramm2.png"/><br>
+<p>Настройки / Options</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/opthionsClassic.png"/><br>
+<img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/opthions.png"/><br>
+<p>Об Авторе / About an author</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/about.png"/><br>
 
-<p>Добавление работника / Adding an employee</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/workersAdd.png"/><br>
-<p>Работник добавлен / An employee has been added</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/addComplete.png"/><br>
-<p>Поиск / Search</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/find.png"/><br>
-<p>Редактирование работника / Editing an employee</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/edit.png"/><br>
-<p>Удаление / Deleting an employee</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/delete.png"/><br>
-<img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/deleteD.png"/><br>
-<p>Экспорт в Word и Excel / Export to Word and Excel</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/exportWORDRes.png"/><br>
-<img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/no_users/images/exportExcel.png"/><br>
+<p>Добавление работника / Adding an employee</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/workersAdd.png"/><br>
+<p>Работник добавлен / An employee has been added</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/addComplete.png"/><br>
+<p>Поиск / Search</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/find.png"/><br>
+<p>Редактирование работника / Editing an employee</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/edit.png"/><br>
+<p>Удаление / Deleting an employee</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/delete.png"/><br>
+<img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/deleteD.png"/><br>
+<p>Экспорт в Word и Excel / Export to Word and Excel</p><img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/exportWORDRes.png"/><br>
+<img src="https://github.com/Sadochok-BISEC/UnionPressProject/blob/main/images/exportExcel.png"/><br>
 
 
 # Технические особенности / Technical requirements:
